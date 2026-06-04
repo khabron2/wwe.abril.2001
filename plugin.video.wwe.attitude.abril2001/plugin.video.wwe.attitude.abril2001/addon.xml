@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.wwe.attitude.abril2001"
+       name="WWE Attitude Abril 2001"
+       version="1.0.0"
+       provider-name="khabron2">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>WWE Abril 2001</summary>
+        <description>RAW Is WAR y SmackDown Abril 2001</description>
+        <platform>all</platform>
+    </extension>
+
+</addon>
